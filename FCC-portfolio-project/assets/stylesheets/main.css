@@ -49,6 +49,64 @@ table {
 
 /*
 ++++++++++
+TYPOGRAPHY
+++++++++++
+*/
+
+body {
+	font-size: 100%;
+	font-family: sans-serif;
+	line-height: 1.2;
+}
+
+/*
+h1 - logo in header
+h2 - section headings
+h3 - portfolio project titles
+h4 - footer sections
+*/
+
+p {
+	color: #17284d;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Exo 2", sans-serif;
+	margin-bottom: 0.8em;
+	color: #3e5a9a;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 3em;
+	text-shadow: 1px 1px 0px #7497e6,
+							-1px -1px 0px #7497e6;
+}
+
+h2 {
+	font-weight: 500;
+	font-style: italic;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #7497e6;
+}
+
+/*
+++++++++++
 GRID STRUCTURE
 ++++++++++
 */
@@ -56,6 +114,11 @@ GRID STRUCTURE
 .page {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
+}
+
+.content {
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
 
@@ -66,7 +129,7 @@ HEADER, FOOTER
 */
 
 header, footer {
-  background: #3e5a9a;
+  background: #17284d;
 }
 
 /*
