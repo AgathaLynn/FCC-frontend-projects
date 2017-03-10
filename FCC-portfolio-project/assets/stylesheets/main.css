@@ -70,6 +70,7 @@ p {
 	color: #17284d;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
+	font-size: 1.2em;
 	line-height: 1.4;
 }
 
@@ -116,25 +117,17 @@ GRID STRUCTURE
 ++++++++++
 */
 
-.content {
+.page {
 	margin-left: 8%;
 	margin-right: 8%;
-}
-
-.page {
-	padding-top: 8em; /* 2em padding + 6em shift for header */
-	margin-bottom: -6em; /* 2em padding - 6em shift for header */
-	padding-bottom: 2em;
+	padding-top: 10em; /* shift for header + 3em*/
+	margin-bottom: -7em; /* shift for header + 3em */
+	padding-bottom: 3em;
 	border-bottom: 1px solid #9a7f3e;
-}
-
-.page:first-child {
-	padding-top: 10em; /* add extra top padding */
 }
 
 .page:last-child {
 	margin-bottom: 0em; /* remove shift for header */
-	padding-bottom: 4em; /* add padding to match top */
 	border-bottom: none;
 }
 
@@ -150,10 +143,12 @@ header, footer {
 
 header {
 	position: fixed;
+	top: 0px;
 	width: 100%;
 	height: 6em;
 	padding: 0.5em 0.5em 0.5em 2em;
 	box-shadow: 0px 0px 6px 1px #9a7f3e;
+	z-index: 5;
 }
 
 /*
@@ -186,6 +181,24 @@ CONTENT
 ++++++++++
 */
 
+#intro {
+	background-image: url("../images/artem-sapegin-176819.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.5);
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 12%;
+	padding-right: 12%;
+	text-align: center;
+}
+
+#intro h2,
+#intro p {
+	text-shadow: 0px 0px 10px #fff;
+}
+
+
 /*
 ++++++++++
 MODS FOR SMALL SCREENS
@@ -195,5 +208,12 @@ MODS FOR SMALL SCREENS
 /*
  -> adjust header
  -> create collapsible navigation
+
+*/
+
+/*
+colors:
+
+https://color.adobe.com/create/color-wheel/?base=0&rule=Complementary&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.24313725490196078,0.35294117647058826,0.6039215686274509,0.09196587725999492,0.15647413115444642,0.30392156862745096,0.4543086325439266,0.5911473522215387,0.9039215686274509,0.30392156862745096,0.23169307248583568,0.06157372039724982,0.6039215686274509,0.4963946869069082,0.24313725490196078&swatchOrder=0,1,2,3,4
 
 */
