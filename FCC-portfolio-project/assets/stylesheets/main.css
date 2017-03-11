@@ -106,7 +106,7 @@ h3 {
 }
 
 h4 {
-	font-weight: 300;
+	font-weight: 700;
 	text-transform: uppercase;
 	color: #7497e6;
 }
@@ -150,6 +150,10 @@ header {
 	padding: 0.5em 0.5em 0.5em 2em;
 	box-shadow: 0px 0px 6px 1px #9a7f3e;
 	z-index: 5;
+}
+
+footer {
+	padding: 20px;
 }
 
 /*
@@ -294,6 +298,25 @@ textarea {
 	background: #9a7f3e;
 }
 
+.links {
+	text-align: center;
+}
+
+.links li {
+	display: inline-block;
+}
+
+.links img {
+	width: 45px;
+	height: auto;
+	margin: 10px 20px;
+}
+
+.links p {
+	margin-top: 10px;
+	color: #7497e6;
+	font-size: 0.6em;
+}
 /*
 ++++++++++
 MODS FOR SMALL SCREENS
